@@ -2,13 +2,13 @@
   height: 1em;
   display: inline-block;
   position: relative;
-  color: #4a3f45;
+  color: #7a7176;
 }
 .typing:before {
   content: "";
   width: 0.33em;
   margin-right: 0.2em;
-  background-color: #4a3f45;
+  background-color: #7a7176;
   display: inline-block;
   vertical-align: top;
   margin-top: 0.025em;
@@ -19,7 +19,7 @@
 }
 .typing:not(.revealing):before {
   animation: blink-animation 1s steps(5, start) infinite;
-  background-color: #4a3f45;
+  background-color: #7a7176;
 }
 .typing.revealing:before {
   width: 100%;

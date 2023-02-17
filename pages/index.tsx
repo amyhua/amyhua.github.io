@@ -8,9 +8,13 @@ import { useLayoutEffect, useState } from 'react'
 // import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
-const sourceSansPro = Source_Sans_Pro({
+const sourceSansProLight = Source_Sans_Pro({
   subsets: ['latin'],
   weight: '200'
+});
+const sourceSansPro = Source_Sans_Pro({
+  subsets: ['latin'],
+  weight: '400'
 });
 const robotoMonoLight = Roboto_Mono({
   subsets: ['latin'],
@@ -47,27 +51,32 @@ export default function Home() {
             </h1>
             <div className={classNames(
               "my-10 text-xl leading-snug pt-4 pr-2 box-border",
-              sourceSansPro.className,
+              sourceSansProLight.className,
             )}>
               <div className="my-3">
                 Hi! {`👋`}
               </div>
               <div className="my-3">
-                I'm a hybrid designer/software engineer with over 10 years of experience in the tech industry.
+                I'm a frontend-focused full-stack engineer with over 10 years of experience in tech.
               </div>
               <div className="mt-3 mb-6">
-                I like to build elegant and useful experiences for the web.
+                As a hybrid designer/developer, I like to build elegant and useful experiences for the web.
               </div>
               <a
                 href="https://docs.google.com/document/d/e/2PACX-1vSk0JENkjv2SfFM9dKJWozcl4958CIHz7FlHnogHFseAb5v3Zcz0RqPwAIVmO95-VUjCCDy-pQwyqlw/pub"
                 rel="noreferrer"
                 target="_blank"
-                className="flex items-center group cursor-pointer p-3 rounded-lg bg-gray-50 hover:bg-gray-100">
+                className={classNames(
+                  "mt-9 flex items-center group cursor-pointer p-3 rounded-lg bg-gray-50 hover:bg-gray-100"
+                )}>
                 <span className="align-middle">📄</span> <span className="text-lg inline-block text-black ml-2 font-bold">See my Resume</span>
               </a>
             </div>
-            <div className="py-3 my-3 text-gray-800">
-              <div className="w-6 border-b border-b-gray-800 my-6" />
+            <div className={classNames(
+              "py-3 my-3 text-gray-800",
+              sourceSansPro.className,
+            )}>
+              <div className="w-6 border-b border-b-gray-800 my-3" />
               <span className="mr-3">#javascript</span>
               <span className="mr-3">#reactjs</span>
               <span className="mr-3">#html</span>
@@ -86,7 +95,7 @@ export default function Home() {
                   className="rounded-full"
                 />
               </div>
-              <div className="flex-1 flex items-center px-4 text-sm">
+              <div className="flex-1 flex items-center px-4 text-base">
                 <ul className="flex justify-evenly cursor-pointer">
                   <li className="px-3 text-gray-600 hover:text-black transition-colors">
                     <a href="//linkedin.com/in/huaamy" target="_blank" rel="noreferrer">LinkedIn</a>
