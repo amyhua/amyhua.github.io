@@ -43,7 +43,7 @@ export default function Home() {
           <header className="p-10">
             <h1 className={classNames(
               robotoMonoLight.className,
-              "text-5xl m-0 tracking-wide mt-14",
+              "text-5xl m-0 tracking-wide mt-7",
               styles.typing,
               isAnimatingHeader && styles.revealing,
             )}>
