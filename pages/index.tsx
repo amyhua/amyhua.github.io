@@ -50,7 +50,7 @@ export default function Home() {
               Amy Hua
             </h1>
             <div className={classNames(
-              "my-6 text-2xl sm:text-xl pt-4 pr-2 box-border",
+              "my-6 text-2xl sm:text-xl pt-4 sm:pr-2 box-border",
               sourceSansProLight.className,
             )}>
               <div className="my-6">
