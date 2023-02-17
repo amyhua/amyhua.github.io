@@ -62,16 +62,17 @@ export default function Home() {
               <div className="mt-3 mb-6">
                 As a hybrid designer/developer, I like to build elegant and useful experiences for the web.
               </div>
-              <a
-                href="https://docs.google.com/document/d/e/2PACX-1vSk0JENkjv2SfFM9dKJWozcl4958CIHz7FlHnogHFseAb5v3Zcz0RqPwAIVmO95-VUjCCDy-pQwyqlw/pub"
-                rel="noreferrer"
-                target="_blank"
-                className={classNames(
-                  "mt-9 flex items-center group cursor-pointer p-3 rounded-lg bg-gray-50 hover:bg-gray-100"
-                )}>
-                <span className="align-middle">📄</span> <span className="text-lg inline-block text-black ml-2 font-bold">See my Resume</span>
-              </a>
             </div>
+            <a
+              href="https://docs.google.com/document/d/e/2PACX-1vSk0JENkjv2SfFM9dKJWozcl4958CIHz7FlHnogHFseAb5v3Zcz0RqPwAIVmO95-VUjCCDy-pQwyqlw/pub"
+              rel="noreferrer"
+              target="_blank"
+              className={classNames(
+                "mt-9 flex items-center group cursor-pointer p-3 rounded-lg bg-gray-50 hover:bg-gray-100",
+                sourceSansPro.className,
+              )}>
+              <span className="align-middle">📄</span> <span className="text-base inline-block text-black ml-2">Resume</span>
+            </a>
             <div className={classNames(
               "py-3 my-3 text-gray-800",
               sourceSansPro.className,
