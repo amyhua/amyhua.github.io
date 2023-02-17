@@ -15,7 +15,7 @@
   transition: height 0.33s linear, width 0.15s linear, background-color 0.33s linear;
   position: absolute;
   margin-left: -0.53em;
-  height: 110%;
+  height: 115%;
 }
 .typing:not(.revealing):before {
   animation: blink-animation 1s steps(5, start) infinite;
