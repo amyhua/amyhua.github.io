@@ -60,7 +60,7 @@ export default function Home() {
                 I'm a frontend-focused full-stack engineer with over 10 years of experience in tech.
               </div>
               <div className="mt-6 mb-6 pr-6">
-                As a hybrid designer/developer, I like to build elegant and useful experiences for the web.
+                As a hybrid designer / developer, I like to build elegant and useful experiences for the web.
               </div>
             </div>
             <a
