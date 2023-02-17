@@ -34,7 +34,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <main className="mx-auto max-w-md">
         <div className="max-w-md flex flex-col justify-between min-h-screen">
           <header className="p-10">
             <h1 className={classNames(
