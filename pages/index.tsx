@@ -77,8 +77,7 @@ export default function Home() {
               <span className="align-middle">📄</span> <span className="text-lg sm:text-base inline-block text-black ml-2">Resume</span>
             </a>
             <div className={classNames(
-              "py-3 my-3 text-gray-800 text-lg sm:text-base",
-              sourceSansPro.className,
+              "py-3 my-3 text-gray-800 text-base sm:text-base",
             )}>
               <div className="w-6 border-b border-b-gray-800 my-3" />
               <div className="text-bread">
