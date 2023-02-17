@@ -21,6 +21,9 @@ const robotoMonoLight = Roboto_Mono({
   weight: '200'
 });
 
+const Tag = ({ children }: { children: any; }) => (
+  <span className="inline-block mr-3">{children}</span>
+)
 
 const ANIMATION_DELAY = 500;
 export default function Home() {
@@ -79,12 +82,12 @@ export default function Home() {
             )}>
               <div className="w-6 border-b border-b-gray-800 my-3" />
               <div className="text-[#7a7176]">
-                <span className="mr-3">#js</span>
-                <span className="mr-3">#react</span>
-                <span className="mr-3">#node</span>
-                <span className="mr-3">#html</span>
-                <span className="mr-3">#css</span>
-                <span className="mr-3">#sql</span>
+                {
+                  ['#js', '#react', '#node', '#html', '#css', '#sql', '#python', '#ruby', '#ror', '#orms', '#d3js']
+                  .map((tag, i) => (
+                    <Tag key={i}>{tag}</Tag>
+                  ))
+                }
               </div>
             </div>
           </header>
