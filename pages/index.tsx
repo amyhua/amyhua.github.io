@@ -78,12 +78,14 @@ export default function Home() {
               sourceSansPro.className,
             )}>
               <div className="w-6 border-b border-b-gray-800 my-3" />
-              <span className="mr-3">#javascript</span>
-              <span className="mr-3">#reactjs</span>
-              <span className="mr-3">#nodejs</span>
-              <span className="mr-3">#html</span>
-              <span className="mr-3">#css</span>
-              <span className="mr-3">#sql</span>
+              <div className="text-[#7a7176]">
+                <span className="mr-3">#js</span>
+                <span className="mr-3">#react</span>
+                <span className="mr-3">#node</span>
+                <span className="mr-3">#html</span>
+                <span className="mr-3">#css</span>
+                <span className="mr-3">#sql</span>
+              </div>
             </div>
           </header>
           <footer className="px-10 py-6">
