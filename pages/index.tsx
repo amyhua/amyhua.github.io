@@ -83,7 +83,7 @@ export default function Home() {
               <div className="w-6 border-b border-b-gray-800 my-3" />
               <div className="text-[#7a7176]">
                 {
-                  ['#js', '#react', '#node', '#html', '#css', '#sql', '#python', '#ruby', '#ror', '#orms', '#d3js']
+                  ['#js', '#react', '#node', '#html', '#css', '#sql', '#python', '#ruby', '#ror', '#d3js']
                   .map((tag, i) => (
                     <Tag key={i}>{tag}</Tag>
                   ))
