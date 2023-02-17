@@ -43,14 +43,14 @@ export default function Home() {
           <header className="p-10">
             <h1 className={classNames(
               robotoMonoLight.className,
-              "text-5xl m-0 tracking-wide mt-7",
+              "text-5xl m-0 tracking-wide mt-10",
               styles.typing,
               isAnimatingHeader && styles.revealing,
             )}>
               Amy Hua
             </h1>
             <div className={classNames(
-              "my-10 text-xl leading-snug pt-4 pr-2 box-border",
+              "my-10 text-2xl pt-4 pr-2 box-border",
               sourceSansProLight.className,
             )}>
               <div className="my-3">
@@ -59,7 +59,7 @@ export default function Home() {
               <div className="my-3">
                 I'm a frontend-focused full-stack engineer with over 10 years of experience in tech.
               </div>
-              <div className="mt-3 mb-6">
+              <div className="mt-3 mb-6 pr-6">
                 As a hybrid designer/developer, I like to build elegant and useful experiences for the web.
               </div>
             </div>

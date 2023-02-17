@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  /* --typing-color: #7a7176; */
-  --typing-color: #000;
+  --typing-color: #7a7176;
+  /* --typing-color: #000; */
 }
 
 /* :root {
