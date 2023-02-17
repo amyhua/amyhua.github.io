@@ -50,7 +50,7 @@ export default function Home() {
               sourceSansPro.className,
             )}>
               <div className="my-3">
-                Hi! 👋
+                Hi! {`👋`}
               </div>
               <div className="my-3">
                 I'm a hybrid designer/software engineer with over 10 years of experience in the tech industry.
