@@ -106,6 +106,9 @@ export default function Home() {
                   <li className="px-3 text-gray-600 hover:text-black transition-colors">
                   <a href="//github.com/amyhua" target="_blank" rel="noreferrer">Github</a>
                   </li>
+                  <li className="px-3 text-gray-600 hover:text-black transition-colors">
+                  <a href="//mailto:foramyhua@gmail.com" target="_blank" rel="noreferrer">Email</a>
+                  </li>
                 </ul>
               </div>
             </div>
