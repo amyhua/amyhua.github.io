@@ -71,10 +71,10 @@ export default function Home() {
                 "mt-9 flex items-center group cursor-pointer p-3 rounded-lg bg-gray-50 hover:bg-gray-100",
                 sourceSansPro.className,
               )}>
-              <span className="align-middle">📄</span> <span className="text-base inline-block text-black ml-2">Resume</span>
+              <span className="align-middle">📄</span> <span className="text-lg inline-block text-black ml-2">Resume</span>
             </a>
             <div className={classNames(
-              "py-3 my-3 text-gray-800",
+              "py-3 my-3 text-gray-800 text-lg",
               sourceSansPro.className,
             )}>
               <div className="w-6 border-b border-b-gray-800 my-3" />
