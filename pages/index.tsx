@@ -46,7 +46,7 @@ export default function Home() {
           <header className="p-10">
             <h1 className={classNames(
               robotoMonoLight.className,
-              "text-5xl sm:text-4xl m-0 tracking-wide mt-14",
+              "text-5xl sm:text-4xl m-0 tracking-wide mt-14 text-bread",
               styles.typing,
               isAnimatingHeader && styles.revealing,
             )}>
@@ -81,7 +81,7 @@ export default function Home() {
               sourceSansPro.className,
             )}>
               <div className="w-6 border-b border-b-gray-800 my-3" />
-              <div className="text-[#7a7176]">
+              <div className="text-bread">
                 {
                   ['#js', '#react', '#node', '#html', '#css', '#sql', '#python', '#ruby', '#ror', '#d3js', '#webgl']
                   .map((tag, i) => (
