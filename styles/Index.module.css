@@ -1,14 +1,18 @@
+:root {
+  /* --typing-color: #7a7176; */
+  --typing-color: #000;
+}
 .typing {
   height: 1em;
   display: inline-block;
   position: relative;
-  color: #7a7176;
+  color: var(--typing-color);
 }
 .typing:before {
   content: "";
   width: 0.33em;
   margin-right: 0.2em;
-  background-color: #7a7176;
+  background-color: var(--typing-color);
   display: inline-block;
   vertical-align: top;
   margin-top: 0.025em;
@@ -19,7 +23,7 @@
 }
 .typing:not(.revealing):before {
   animation: blink-animation 1s steps(5, start) infinite;
-  background-color: #7a7176;
+  background-color: var(--typing-color);
 }
 .typing.revealing:before {
   width: 100%;
