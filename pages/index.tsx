@@ -84,7 +84,7 @@ export default function Home() {
               <span className="mr-3">#css</span>
             </div>
           </header>
-          <footer className="p-10">
+          <footer className="px-10 py-6">
             <div className="flex">
               <div>
                 <Image
