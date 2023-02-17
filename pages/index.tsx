@@ -38,28 +38,28 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="mx-auto max-w-md">
-        <div className="max-w-md flex flex-col justify-between min-h-screen">
+      <main className="mx-auto max-w-3xl">
+        <div className="max-w-lg flex flex-col justify-between min-h-screen">
           <header className="p-10">
             <h1 className={classNames(
               robotoMonoLight.className,
-              "text-5xl m-0 tracking-wide mt-10",
+              "text-5xl sm:text-4xl m-0 tracking-wide mt-14",
               styles.typing,
               isAnimatingHeader && styles.revealing,
             )}>
               Amy Hua
             </h1>
             <div className={classNames(
-              "my-10 text-2xl pt-4 pr-2 box-border",
+              "my-6 text-2xl sm:text-xl pt-4 pr-2 box-border",
               sourceSansProLight.className,
             )}>
-              <div className="my-3">
+              <div className="my-6">
                 Hi! {`👋`}
               </div>
-              <div className="my-3">
+              <div className="my-6">
                 I'm a frontend-focused full-stack engineer with over 10 years of experience in tech.
               </div>
-              <div className="mt-3 mb-6 pr-6">
+              <div className="mt-6 mb-6 pr-6">
                 As a hybrid designer/developer, I like to build elegant and useful experiences for the web.
               </div>
             </div>
@@ -71,10 +71,10 @@ export default function Home() {
                 "mt-9 flex items-center group cursor-pointer p-3 rounded-lg bg-gray-50 hover:bg-gray-100",
                 sourceSansPro.className,
               )}>
-              <span className="align-middle">📄</span> <span className="text-lg inline-block text-black ml-2">Resume</span>
+              <span className="align-middle">📄</span> <span className="text-lg sm:text-base inline-block text-black ml-2">Resume</span>
             </a>
             <div className={classNames(
-              "py-3 my-3 text-gray-800 text-lg",
+              "py-3 my-3 text-gray-800 text-lg sm:text-base",
               sourceSansPro.className,
             )}>
               <div className="w-6 border-b border-b-gray-800 my-3" />
