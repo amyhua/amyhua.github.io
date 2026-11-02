@@ -25,6 +25,21 @@ const Tag = ({ children }: { children: any; }) => (
   <span className="inline-block mr-3">{children}</span>
 )
 
+const PROJECTS = [
+  {
+    href: 'https://www.sunday2saturday.com/',
+    emoji: '🗓️',
+    title: 'Sunday2Saturday',
+    description: 'An advanced digital weekly planner',
+  },
+  {
+    href: 'https://mega-coast-calculator.vercel.app/',
+    emoji: '🏖️',
+    title: 'Mega COAST Calculator',
+    description: 'An advanced COAST retirement planner',
+  },
+];
+
 const ANIMATION_DELAY = 500;
 export default function Home() {
   const [isAnimatingHeader, setIsAnimatingHeader] = useState(true);
@@ -76,6 +91,31 @@ export default function Home() {
               )}>
               <span className="align-middle">📄</span> <span className="text-lg sm:text-base inline-block text-black ml-2">Resume</span>
             </a>
+            <section className="mt-9">
+              <h2 className={classNames(
+                sourceSansProLight.className,
+                "text-2xl sm:text-xl mb-4",
+              )}>
+                Projects
+              </h2>
+              {PROJECTS.map(({ href, emoji, title, description }) => (
+                <a
+                  key={href}
+                  href={href}
+                  rel="noreferrer"
+                  target="_blank"
+                  className={classNames(
+                    "mb-3 flex items-start group cursor-pointer p-3 rounded-lg bg-gray-50 hover:bg-gray-100",
+                    sourceSansPro.className,
+                  )}>
+                  <span className="align-middle">{emoji}</span>
+                  <span className="ml-2">
+                    <span className="block text-lg sm:text-base text-black">{title}</span>
+                    <span className="block text-base sm:text-sm text-gray-500">{description}</span>
+                  </span>
+                </a>
+              ))}
+            </section>
             <div className={classNames(
               "py-3 my-3 text-gray-800 text-base sm:text-base",
             )}>
