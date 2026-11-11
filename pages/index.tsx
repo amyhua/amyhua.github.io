@@ -78,7 +78,7 @@ export default function Home() {
                 I'm a full-stack engineer with over 13 years of experience in tech.
               </div>
               <div className="mt-6 mb-6 pr-6">
-                As a hybrid designer / developer, I like to build elegant and useful experiences for the web.
+                As a seasoned engineer, I have built powerful, polished technology systems and applications across various industries (AI, data, finance, self driving cars, gaming, education, developer tools, location intelligence).
               </div>
             </div>
             <a
