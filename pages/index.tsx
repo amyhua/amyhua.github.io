@@ -96,7 +96,7 @@ export default function Home() {
                 sourceSansProLight.className,
                 "text-2xl sm:text-xl mb-4",
               )}>
-                Projects
+                Personal Projects
               </h2>
               {PROJECTS.map(({ href, emoji, title, description }) => (
                 <a
