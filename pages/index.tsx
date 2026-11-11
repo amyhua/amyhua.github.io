@@ -57,7 +57,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="mx-auto max-w-3xl">
-        <div className="max-w-lg flex flex-col justify-between min-h-screen">
+        <div className="max-w-[40rem] flex flex-col justify-between min-h-screen">
           <header className="p-10">
             <h1 className={classNames(
               robotoMonoLight.className,
